@@ -1191,20 +1191,54 @@ img {
   }
 
   .nav-actions {
-    gap: 8px;
+    gap: 6px;
+  }
+
+  .lang-switcher {
+    gap: 2px;
+    padding: 2px;
+  }
+
+  .lang-btn {
+    padding: 4px 6px;
+    font-size: 0.65rem;
+  }
+
+  .theme-toggle {
+    width: 32px;
+    height: 32px;
+    font-size: 0.85rem;
+  }
+
+  .hamburger {
+    padding: 4px;
   }
 
   .logo-img {
-    height: 32px;
+    height: 28px;
   }
 
   .nav-container {
-    padding: 0 16px;
+    padding: 0 12px;
   }
 
   .hero-stats {
-    gap: 24px;
+    gap: 12px;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  .hero-stat-number {
+    font-size: 1.6rem;
+  }
+
+  .hero-stat-plus {
+    font-size: 1.2rem;
+  }
+
+  .hero-stat-label {
+    font-size: 0.7rem;
   }
 
   .about-grid {
@@ -1246,24 +1280,6 @@ img {
     font-size: clamp(1.8rem, 6vw, 2.6rem);
   }
 
-  .lang-switcher {
-    gap: 0;
-  }
-
-  .lang-btn {
-    padding: 4px 6px;
-    font-size: 0.7rem;
-  }
-
-  .theme-toggle {
-    width: 36px;
-    height: 36px;
-    font-size: 1rem;
-  }
-
-  .hamburger {
-    padding: 6px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -1272,12 +1288,13 @@ img {
   }
 
   .section {
-    padding: 72px 0;
+    padding: 64px 0;
   }
 
   .hero-buttons {
     flex-direction: column;
     align-items: center;
+    gap: 12px;
   }
 
   .btn {
@@ -1287,7 +1304,8 @@ img {
 
   .hero-stats {
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
+    align-items: center;
   }
 
   .contact-form {
