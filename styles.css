@@ -1287,6 +1287,10 @@ img {
     padding: 0 16px;
   }
 
+  .hero-badge {
+    margin-top: 10px;
+  }
+
   .section {
     padding: 64px 0;
   }
