@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" width="400" height="180">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a"/>
+      <stop offset="50%" style="stop-color:#0077b6"/>
+      <stop offset="100%" style="stop-color:#00b4d8"/>
+    </linearGradient>
+  </defs>
+  <!-- U letter -->
+  <path d="M40 30 L40 95 C40 125 60 145 90 145 C120 145 140 125 140 95 L140 30" 
+        fill="none" stroke="url(#grad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- D letter -->
+  <path d="M120 30 L120 145 L160 145 C200 145 230 120 230 87.5 C230 55 200 30 160 30 Z" 
+        fill="none" stroke="url(#grad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Text -->
+  <text x="250" y="100" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="28" fill="#0d1b2a">
+    <tspan>UZDEV</tspan>
+  </text>
+  <text x="250" y="135" font-family="Inter, Arial, sans-serif" font-weight="400" font-size="22" fill="#0077b6">
+    <tspan>SOLUTIONS</tspan>
+  </text>
+</svg>
